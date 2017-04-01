@@ -1,11 +1,11 @@
  @echo off
 
- set dbUser=root
- set dbPassword=
- set "backupDir=C:\xampp\htdocs\backup"
- set "mysqldump=C:\xampp\mysql\bin\mysqldump.exe"
- set "mysqlDataDir=C:\xampp\mysql\data"
- set "zip=C:\Program Files\7-Zip\7z.exe"
+ set dbUser=root   										REM Si usas Xampp en Windows dejar asi
+ set dbPassword=   										REM Mismo comentario que el anterior
+ set "backupDir=C:\xampp\htdocs\backup"					REM Crea y ubica dentro de /htdocs u otra ubicación donde se harán los respaldo, en ese caso creé y vincule una carpeta /backup dentro de /htdocs
+ set "mysqldump=C:\xampp\mysql\bin\mysqldump.exe"		REM Ubicar el ejecutable mysqldump.exe y vincularlo, si usas Windows dejar esta linea tal cual.
+ set "mysqlDataDir=C:\xampp\mysql\data"					REM Misco comentario que el anterior, se trata de ubicar la carpeta /data
+ set "zip=C:\Program Files\7-Zip\7z.exe"				REM Indicar la ruta de llegada al ejecutable 7z.exe de la instalación del 7-zip
  
 
  :: http://stackoverflow.com/a/31789045/1010918 foxidrive's answer helped me get the folder with the date and time I wanted
