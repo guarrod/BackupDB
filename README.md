@@ -38,3 +38,4 @@ Adicional a esto puedes configurar la ejecución diaria de este script para gene
  9. Listo con esto está configurada la ejecución del respaldo
  10. Adicionalmente se recomienda poner un nombre a la tarea en la pestaña "General" y hacer clic en Aceptar para guardar y cerrar el programador.
  
+> Al ejecutarse la tarea aparecerá una ventana CDM con el log de la tarea en curso, aún me falta añadirle una instrucción para que se cierre automaticamente :)
